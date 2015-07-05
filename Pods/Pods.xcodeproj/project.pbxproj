@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E2116277836C0BFFFF3F54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05A4BABFDE123AA0DCEAE3 /* Foundation.framework */; };
+		1ABC1028C93FD8F44D980DB0 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9BA0A23EBFE20629979773 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24BF62A82A0BD8C0E82DC907 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F349DACF8A10F99DFE5127 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303360620AE8D13DD7CE5CB4 /* Pods-CustomUIPickerCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344C7797F6432DCAAF98E914 /* Pods-CustomUIPickerCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3572B00362448C115931D2C2 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541E4273C3776784A872AC2 /* NSArray+PureLayout.m */; };
+		4705785425F99946B0238B79 /* Pods-CustomUIPickerCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D43DA4B0BE869228E6238C6 /* Pods-CustomUIPickerCell-dummy.m */; };
+		56B23AF6ABFCDDE4CD7BCEA4 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3EFE1C3FF2C79D05CA346F /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5886CE1CA0698E91B9DEDBC8 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D14B4A53A8090F77308FEC /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774056F8266E832EC002D939 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EC698A51B8B5224F2E3D19 /* NSLayoutConstraint+PureLayout.m */; };
+		8871F156A20BF4BAB10FDFBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05A4BABFDE123AA0DCEAE3 /* Foundation.framework */; };
+		97595596BB6DA8682073EAAF /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 712D6AD1350577C04D252919 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC18F11C5CFAEF9EA0BD38F6 /* Pods-CustomUIPickerCell-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B53552F5115513A05FFC5 /* Pods-CustomUIPickerCell-PureLayout-dummy.m */; };
+		D44AD6516D3DBD8B07D3C9A9 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D5ADEF5CC969A0B33DAF0 /* ALView+PureLayout.m */; };
+		E6345D3A11BBBF6CFEEB319D /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A828613E4EF50160D34A9CFC /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6C252B7FD499B943E0A5B8 /* Pods-CustomUIPickerCell-PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D073E0BCAD4281EEB169331 /* Pods-CustomUIPickerCell-PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88931DF6309FD1A01348E5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 854E0A1091F5CF98CD1FD7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4F8E649021B31A74E6D172;
+			remoteInfo = "Pods-CustomUIPickerCell-PureLayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A61B304C4E24224A206AFA /* Pods-CustomUIPickerCell-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomUIPickerCell-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		289B53552F5115513A05FFC5 /* Pods-CustomUIPickerCell-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomUIPickerCell-PureLayout-dummy.m"; sourceTree = "<group>"; };
+		3292E1688F97D8BF7DFCC721 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34003F0A2A98F6CBA510B0A9 /* Pods-CustomUIPickerCell-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomUIPickerCell-frameworks.sh"; sourceTree = "<group>"; };
+		344C7797F6432DCAAF98E914 /* Pods-CustomUIPickerCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomUIPickerCell-umbrella.h"; sourceTree = "<group>"; };
+		3A9BA0A23EBFE20629979773 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		3C7453B15A10B5D35A1F067D /* Pods-CustomUIPickerCell-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIPickerCell-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		3E07E76B5FD6FC31EA5E3843 /* Pods_CustomUIPickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomUIPickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6105AB848C4D40101DC876DB /* Pods-CustomUIPickerCell-PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CustomUIPickerCell-PureLayout.modulemap"; sourceTree = "<group>"; };
+		6541E4273C3776784A872AC2 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		686D868E9238AC104BD74DF6 /* Pods-CustomUIPickerCell-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomUIPickerCell-acknowledgements.plist"; sourceTree = "<group>"; };
+		712D6AD1350577C04D252919 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		791B931E84FAD26FFDE1855D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C40ED8DD04B157F36B0435E /* Pods-CustomUIPickerCell-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomUIPickerCell-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D073E0BCAD4281EEB169331 /* Pods-CustomUIPickerCell-PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomUIPickerCell-PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		7D43DA4B0BE869228E6238C6 /* Pods-CustomUIPickerCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomUIPickerCell-dummy.m"; sourceTree = "<group>"; };
+		87607AD3C638938D515DED30 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EC698A51B8B5224F2E3D19 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		A828613E4EF50160D34A9CFC /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		AE3EFE1C3FF2C79D05CA346F /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		BEFAC3D99198CD4BE49D9C54 /* Pods-CustomUIPickerCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIPickerCell.release.xcconfig"; sourceTree = "<group>"; };
+		BF6D5ADEF5CC969A0B33DAF0 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		BF9549BCBFA3767B555383BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C223B01378EE20BA3F35CEDF /* Pods-CustomUIPickerCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CustomUIPickerCell.modulemap"; sourceTree = "<group>"; };
+		C2B5E68E9B178DD54EC768F7 /* Pods-CustomUIPickerCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIPickerCell.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5D332BDEF90EC6618955E5 /* Pods-CustomUIPickerCell-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomUIPickerCell-environment.h"; sourceTree = "<group>"; };
+		D4D14B4A53A8090F77308FEC /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		DAB703A7DC3D88B7D211C11A /* Pods-CustomUIPickerCell-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomUIPickerCell-resources.sh"; sourceTree = "<group>"; };
+		E8F349DACF8A10F99DFE5127 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		EAF8E2E12663AA88BA3E8B48 /* Pods-CustomUIPickerCell-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIPickerCell-PureLayout.xcconfig"; sourceTree = "<group>"; };
+		EE05A4BABFDE123AA0DCEAE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBA40E48225BB27934A76FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E2116277836C0BFFFF3F54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D9207B8DC1250D06EBD883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8871F156A20BF4BAB10FDFBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121BC058DCDB05B981F39D1E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE05A4BABFDE123AA0DCEAE3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1D4DEF348B9DFF1844F00BA1 = {
+			isa = PBXGroup;
+			children = (
+				791B931E84FAD26FFDE1855D /* Podfile */,
+				4D3055D34B7D06CB3FC90121 /* Frameworks */,
+				47B4BE7377690972E7F35360 /* Pods */,
+				9922D28C4C514FAAA342E605 /* Products */,
+				D3B0D5D6899893A1D61D2173 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		47B4BE7377690972E7F35360 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC82E3167217941D0DAFB6 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CBC82E3167217941D0DAFB6 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D4D14B4A53A8090F77308FEC /* ALView+PureLayout.h */,
+				BF6D5ADEF5CC969A0B33DAF0 /* ALView+PureLayout.m */,
+				A828613E4EF50160D34A9CFC /* NSArray+PureLayout.h */,
+				6541E4273C3776784A872AC2 /* NSArray+PureLayout.m */,
+				AE3EFE1C3FF2C79D05CA346F /* NSLayoutConstraint+PureLayout.h */,
+				94EC698A51B8B5224F2E3D19 /* NSLayoutConstraint+PureLayout.m */,
+				712D6AD1350577C04D252919 /* PureLayout.h */,
+				3A9BA0A23EBFE20629979773 /* PureLayout+Internal.h */,
+				E8F349DACF8A10F99DFE5127 /* PureLayoutDefines.h */,
+				F4567A9377D2FB99D0F249A9 /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		4D3055D34B7D06CB3FC90121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				121BC058DCDB05B981F39D1E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9922D28C4C514FAAA342E605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E07E76B5FD6FC31EA5E3843 /* Pods_CustomUIPickerCell.framework */,
+				87607AD3C638938D515DED30 /* PureLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9A919BB7539BF58C38BB75 /* Pods-CustomUIPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				3292E1688F97D8BF7DFCC721 /* Info.plist */,
+				C223B01378EE20BA3F35CEDF /* Pods-CustomUIPickerCell.modulemap */,
+				7C40ED8DD04B157F36B0435E /* Pods-CustomUIPickerCell-acknowledgements.markdown */,
+				686D868E9238AC104BD74DF6 /* Pods-CustomUIPickerCell-acknowledgements.plist */,
+				7D43DA4B0BE869228E6238C6 /* Pods-CustomUIPickerCell-dummy.m */,
+				CD5D332BDEF90EC6618955E5 /* Pods-CustomUIPickerCell-environment.h */,
+				34003F0A2A98F6CBA510B0A9 /* Pods-CustomUIPickerCell-frameworks.sh */,
+				DAB703A7DC3D88B7D211C11A /* Pods-CustomUIPickerCell-resources.sh */,
+				344C7797F6432DCAAF98E914 /* Pods-CustomUIPickerCell-umbrella.h */,
+				C2B5E68E9B178DD54EC768F7 /* Pods-CustomUIPickerCell.debug.xcconfig */,
+				BEFAC3D99198CD4BE49D9C54 /* Pods-CustomUIPickerCell.release.xcconfig */,
+			);
+			name = "Pods-CustomUIPickerCell";
+			path = "Target Support Files/Pods-CustomUIPickerCell";
+			sourceTree = "<group>";
+		};
+		D3B0D5D6899893A1D61D2173 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF9A919BB7539BF58C38BB75 /* Pods-CustomUIPickerCell */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4567A9377D2FB99D0F249A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9549BCBFA3767B555383BD /* Info.plist */,
+				6105AB848C4D40101DC876DB /* Pods-CustomUIPickerCell-PureLayout.modulemap */,
+				EAF8E2E12663AA88BA3E8B48 /* Pods-CustomUIPickerCell-PureLayout.xcconfig */,
+				3C7453B15A10B5D35A1F067D /* Pods-CustomUIPickerCell-PureLayout-Private.xcconfig */,
+				289B53552F5115513A05FFC5 /* Pods-CustomUIPickerCell-PureLayout-dummy.m */,
+				17A61B304C4E24224A206AFA /* Pods-CustomUIPickerCell-PureLayout-prefix.pch */,
+				7D073E0BCAD4281EEB169331 /* Pods-CustomUIPickerCell-PureLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CustomUIPickerCell-PureLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EB19250A5E020E812A7049F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5886CE1CA0698E91B9DEDBC8 /* ALView+PureLayout.h in Headers */,
+				E6345D3A11BBBF6CFEEB319D /* NSArray+PureLayout.h in Headers */,
+				56B23AF6ABFCDDE4CD7BCEA4 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				EF6C252B7FD499B943E0A5B8 /* Pods-CustomUIPickerCell-PureLayout-umbrella.h in Headers */,
+				1ABC1028C93FD8F44D980DB0 /* PureLayout+Internal.h in Headers */,
+				97595596BB6DA8682073EAAF /* PureLayout.h in Headers */,
+				24BF62A82A0BD8C0E82DC907 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7622FDB890026C5833CB0B3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303360620AE8D13DD7CE5CB4 /* Pods-CustomUIPickerCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		88F749E1C00D88F3C41C4939 /* Pods-CustomUIPickerCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6304A05DC6CB4BFBC6DAB42 /* Build configuration list for PBXNativeTarget "Pods-CustomUIPickerCell" */;
+			buildPhases = (
+				ADB235F086CB717A5058A1C5 /* Sources */,
+				8EBA40E48225BB27934A76FA /* Frameworks */,
+				7622FDB890026C5833CB0B3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D194C1029DC92D954E8469 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomUIPickerCell";
+			productName = "Pods-CustomUIPickerCell";
+			productReference = 3E07E76B5FD6FC31EA5E3843 /* Pods_CustomUIPickerCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD4F8E649021B31A74E6D172 /* Pods-CustomUIPickerCell-PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDE9F83D904790EDB6CFE1A /* Build configuration list for PBXNativeTarget "Pods-CustomUIPickerCell-PureLayout" */;
+			buildPhases = (
+				326CACFEC651E0FCAB29CC1C /* Sources */,
+				93D9207B8DC1250D06EBD883 /* Frameworks */,
+				6EB19250A5E020E812A7049F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CustomUIPickerCell-PureLayout";
+			productName = "Pods-CustomUIPickerCell-PureLayout";
+			productReference = 87607AD3C638938D515DED30 /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		854E0A1091F5CF98CD1FD7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = CE8C355526FEB9BFE4F7D004 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D4DEF348B9DFF1844F00BA1;
+			productRefGroup = 9922D28C4C514FAAA342E605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F749E1C00D88F3C41C4939 /* Pods-CustomUIPickerCell */,
+				DD4F8E649021B31A74E6D172 /* Pods-CustomUIPickerCell-PureLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326CACFEC651E0FCAB29CC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44AD6516D3DBD8B07D3C9A9 /* ALView+PureLayout.m in Sources */,
+				3572B00362448C115931D2C2 /* NSArray+PureLayout.m in Sources */,
+				774056F8266E832EC002D939 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				BC18F11C5CFAEF9EA0BD38F6 /* Pods-CustomUIPickerCell-PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB235F086CB717A5058A1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4705785425F99946B0238B79 /* Pods-CustomUIPickerCell-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20D194C1029DC92D954E8469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CustomUIPickerCell-PureLayout";
+			target = DD4F8E649021B31A74E6D172 /* Pods-CustomUIPickerCell-PureLayout */;
+			targetProxy = 88931DF6309FD1A01348E5BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2067F63E5EFAA7059E79F52A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515450FB5C13D27A7C8E071E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B5E68E9B178DD54EC768F7 /* Pods-CustomUIPickerCell.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomUIPickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomUIPickerCell/Pods-CustomUIPickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CustomUIPickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5361E23B5687B373257C576E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7453B15A10B5D35A1F067D /* Pods-CustomUIPickerCell-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CustomUIPickerCell-PureLayout/Pods-CustomUIPickerCell-PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomUIPickerCell-PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomUIPickerCell-PureLayout/Pods-CustomUIPickerCell-PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A31676C2D49B9CC37E40AB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFAC3D99198CD4BE49D9C54 /* Pods-CustomUIPickerCell.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomUIPickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomUIPickerCell/Pods-CustomUIPickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CustomUIPickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD481FD523960F6AA434CA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7453B15A10B5D35A1F067D /* Pods-CustomUIPickerCell-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CustomUIPickerCell-PureLayout/Pods-CustomUIPickerCell-PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomUIPickerCell-PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomUIPickerCell-PureLayout/Pods-CustomUIPickerCell-PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F16B32FAE0C6B7A8DA9B9E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDE9F83D904790EDB6CFE1A /* Build configuration list for PBXNativeTarget "Pods-CustomUIPickerCell-PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD481FD523960F6AA434CA41 /* Debug */,
+				5361E23B5687B373257C576E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6304A05DC6CB4BFBC6DAB42 /* Build configuration list for PBXNativeTarget "Pods-CustomUIPickerCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515450FB5C13D27A7C8E071E /* Debug */,
+				A31676C2D49B9CC37E40AB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8C355526FEB9BFE4F7D004 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16B32FAE0C6B7A8DA9B9E03 /* Debug */,
+				2067F63E5EFAA7059E79F52A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 854E0A1091F5CF98CD1FD7AB /* Project object */;
+}

@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60740D3EBA71D1BD2AA26F1C /* Pods_CustomUIPickerCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2BCDEB9F488001D4429197 /* Pods_CustomUIPickerCell.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		862F919E1B4932F4002B963C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F919D1B4932F4002B963C /* AppDelegate.swift */; };
+		862F91A01B4932F4002B963C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F919F1B4932F4002B963C /* ViewController.swift */; };
+		862F91A31B4932F4002B963C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862F91A11B4932F4002B963C /* Main.storyboard */; };
+		862F91A51B4932F4002B963C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F91A41B4932F4002B963C /* Images.xcassets */; };
+		862F91A81B4932F4002B963C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862F91A61B4932F4002B963C /* LaunchScreen.xib */; };
+		86B4BC081B493D7E0093FD19 /* CustomPickerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B4BC071B493D7E0093FD19 /* CustomPickerRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E2BCDEB9F488001D4429197 /* Pods_CustomUIPickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomUIPickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		791555A90DAEC5579BF5D930 /* Pods-CustomUIPickerCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomUIPickerCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomUIPickerCell/Pods-CustomUIPickerCell.debug.xcconfig"; sourceTree = "<group>"; };
+		862F91981B4932F4002B963C /* CustomUIPickerCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUIPickerCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		862F919C1B4932F4002B963C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862F919D1B4932F4002B963C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		862F919F1B4932F4002B963C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		862F91A21B4932F4002B963C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		862F91A41B4932F4002B963C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		862F91A71B4932F4002B963C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		862F91B21B4932F4002B963C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862F91B31B4932F4002B963C /* CustomUIPickerCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIPickerCellTests.swift; sourceTree = "<group>"; };
+		86B4BC071B493D7E0093FD19 /* CustomPickerRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerRowView.swift; sourceTree = "<group>"; };
+		F409F2311C6362FBC0187546 /* Pods-CustomUIPickerCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomUIPickerCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomUIPickerCell/Pods-CustomUIPickerCell.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		862F91951B4932F4002B963C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60740D3EBA71D1BD2AA26F1C /* Pods_CustomUIPickerCell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		313E535D2A49F213381CCE82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				791555A90DAEC5579BF5D930 /* Pods-CustomUIPickerCell.debug.xcconfig */,
+				F409F2311C6362FBC0187546 /* Pods-CustomUIPickerCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		862F918F1B4932F4002B963C = {
+			isa = PBXGroup;
+			children = (
+				862F919A1B4932F4002B963C /* CustomUIPickerCell */,
+				862F91B01B4932F4002B963C /* CustomUIPickerCellTests */,
+				862F91991B4932F4002B963C /* Products */,
+				313E535D2A49F213381CCE82 /* Pods */,
+				F4210EAE86583D76DC98BDC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		862F91991B4932F4002B963C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				862F91981B4932F4002B963C /* CustomUIPickerCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		862F919A1B4932F4002B963C /* CustomUIPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				862F919D1B4932F4002B963C /* AppDelegate.swift */,
+				862F919F1B4932F4002B963C /* ViewController.swift */,
+				86B4BC071B493D7E0093FD19 /* CustomPickerRowView.swift */,
+				862F91A11B4932F4002B963C /* Main.storyboard */,
+				862F91A41B4932F4002B963C /* Images.xcassets */,
+				862F91A61B4932F4002B963C /* LaunchScreen.xib */,
+				862F919B1B4932F4002B963C /* Supporting Files */,
+			);
+			path = CustomUIPickerCell;
+			sourceTree = "<group>";
+		};
+		862F919B1B4932F4002B963C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				862F919C1B4932F4002B963C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		862F91B01B4932F4002B963C /* CustomUIPickerCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				862F91B31B4932F4002B963C /* CustomUIPickerCellTests.swift */,
+				862F91B11B4932F4002B963C /* Supporting Files */,
+			);
+			path = CustomUIPickerCellTests;
+			sourceTree = "<group>";
+		};
+		862F91B11B4932F4002B963C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				862F91B21B4932F4002B963C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4210EAE86583D76DC98BDC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E2BCDEB9F488001D4429197 /* Pods_CustomUIPickerCell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		862F91971B4932F4002B963C /* CustomUIPickerCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862F91B71B4932F4002B963C /* Build configuration list for PBXNativeTarget "CustomUIPickerCell" */;
+			buildPhases = (
+				3C1C86F58118D3AD884C4ECA /* Check Pods Manifest.lock */,
+				862F91941B4932F4002B963C /* Sources */,
+				862F91951B4932F4002B963C /* Frameworks */,
+				862F91961B4932F4002B963C /* Resources */,
+				58CC599309A05A524889D2CC /* Copy Pods Resources */,
+				64E820D106A7113D7FBCD4BC /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomUIPickerCell;
+			productName = CustomUIPickerCell;
+			productReference = 862F91981B4932F4002B963C /* CustomUIPickerCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		862F91901B4932F4002B963C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Frederik Jacques";
+				TargetAttributes = {
+					862F91971B4932F4002B963C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 862F91931B4932F4002B963C /* Build configuration list for PBXProject "CustomUIPickerCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 862F918F1B4932F4002B963C;
+			productRefGroup = 862F91991B4932F4002B963C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				862F91971B4932F4002B963C /* CustomUIPickerCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		862F91961B4932F4002B963C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862F91A31B4932F4002B963C /* Main.storyboard in Resources */,
+				862F91A81B4932F4002B963C /* LaunchScreen.xib in Resources */,
+				862F91A51B4932F4002B963C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C1C86F58118D3AD884C4ECA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58CC599309A05A524889D2CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomUIPickerCell/Pods-CustomUIPickerCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E820D106A7113D7FBCD4BC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomUIPickerCell/Pods-CustomUIPickerCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		862F91941B4932F4002B963C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862F91A01B4932F4002B963C /* ViewController.swift in Sources */,
+				862F919E1B4932F4002B963C /* AppDelegate.swift in Sources */,
+				86B4BC081B493D7E0093FD19 /* CustomPickerRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		862F91A11B4932F4002B963C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				862F91A21B4932F4002B963C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		862F91A61B4932F4002B963C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				862F91A71B4932F4002B963C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		862F91B51B4932F4002B963C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		862F91B61B4932F4002B963C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		862F91B81B4932F4002B963C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791555A90DAEC5579BF5D930 /* Pods-CustomUIPickerCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomUIPickerCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		862F91B91B4932F4002B963C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F409F2311C6362FBC0187546 /* Pods-CustomUIPickerCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomUIPickerCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862F91931B4932F4002B963C /* Build configuration list for PBXProject "CustomUIPickerCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862F91B51B4932F4002B963C /* Debug */,
+				862F91B61B4932F4002B963C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862F91B71B4932F4002B963C /* Build configuration list for PBXNativeTarget "CustomUIPickerCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862F91B81B4932F4002B963C /* Debug */,
+				862F91B91B4932F4002B963C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 862F91901B4932F4002B963C /* Project object */;
+}
