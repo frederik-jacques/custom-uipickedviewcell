@@ -35,8 +35,6 @@ class CustomPickerRowView: UIView {
         createImageView()
         createLabel()
         
-        setNeedsUpdateConstraints()
-        
         label.autoCenterInSuperview()
         
         imageView.autoConstrainAttribute(.Horizontal, toAttribute: .Horizontal, ofView: self)
