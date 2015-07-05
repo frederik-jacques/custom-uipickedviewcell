@@ -35,29 +35,17 @@ class CustomPickerRowView: UIView {
         createImageView()
         createLabel()
         
+        setNeedsUpdateConstraints()
+        
+        label.autoCenterInSuperview()
+        
+        imageView.autoConstrainAttribute(.Horizontal, toAttribute: .Horizontal, ofView: self)
+        imageView.autoPinEdge(.Trailing, toEdge: .Leading, ofView: label, withOffset: -10)
     }
 
     required init(coder aDecoder: NSCoder) {
         
         fatalError("init(coder:) has not been implemented")
-        
-    }
-    
-    // MARK: - Lifecycle methods
-    override func updateConstraints() {
-        
-        if( !didSetupConstraints ) {
-            
-            self.autoPinEdgesToSuperviewEdgesWithInsets(UIEdgeInsetsZero)
-            
-            label.autoCenterInSuperview()
-            
-            imageView.autoConstrainAttribute(.Horizontal, toAttribute: .Horizontal, ofView: self)
-            imageView.autoPinEdge(.Trailing, toEdge: .Leading, ofView: label, withOffset: -10)
-            
-        }
-        
-        super.updateConstraints()
         
     }
     
