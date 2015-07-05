@@ -30,8 +30,6 @@ class CustomPickerRowView: UIView {
         
         backgroundColor = UIColor.purpleColor()
         
-        self.setTranslatesAutoresizingMaskIntoConstraints(false)
-        
         createImageView()
         createLabel()
         
